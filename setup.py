@@ -24,6 +24,7 @@ setup(
     entry_points={
         'console_scripts': [
             'landing_detector = precision_landing.landing_detector:main',
+	    'drone_controller = precision_landing.drone_controller:main',
         ],
     },
 )

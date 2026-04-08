@@ -20,7 +20,7 @@ class LandingDetector(Node):
         # CHANGE THIS LINE BASED ON YOUR ros2 topic list
         self.subscription = self.create_subscription(
             Image,
-            '/image',
+            '/image_publisher/image',
             self.image_callback,
             10)
         
